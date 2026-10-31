@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# env files (secrets) - keep .env.example
+.env
+.env.*
+!.env.example
+
+# vercel
+.vercel/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
